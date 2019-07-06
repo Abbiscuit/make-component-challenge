@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server .",
-    "sass": "sass --watch styles.scss:styles.css"
+    "dev": "sass --watch styles.scss:styles.css &  pug --watch index.pug"
   },
   "author": "",
   "license": "ISC",
