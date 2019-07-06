@@ -5,26 +5,59 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title Document
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Carme&display=swap")
     link(rel="stylesheet", href="./styles.css")
   body
-    section.product
-      a(href="#").product__image
-        img(src="img/sun-flower.jpeg", alt="plant" class="image")
-      a(href="#").product__details
-        p.product__name Sun Flower
-        p.product__price $ 2.9
-        p.product__desc Wonderfully, amazing sun flower
-    section.product
-      a(href="#").product__image
-        img(src="img/plant.jpeg", alt="plant" class="image")
-      a(href="#").product__details
-        p.product__name Plant
-        p.product__price $ 1.9
-        p.product__desc Wonderfully, amazing plant
-    section.product
-      a(href="#").product__image
-        img(src="img/pineapple.jpeg", alt="plant" class="image")
-      a(href="#").product__details
-        p.product__name Pineapple
-        p.product__price $ 4.9
-        p.product__desc Wonderfully, amazing pineapples                
+
+    section.product-section
+      h1  Products Design
+      div.product
+        a(href="#").product__image
+          img(src="img/sun-flower.jpeg", alt="plant" class="image")
+        a(href="#").product__details
+          p.product__name Sun Flower
+          p.product__price $ 2.9
+          p.product__desc Wonderfully, amazing sun flower
+      section.product
+        a(href="#").product__image
+          img(src="img/plant.jpeg", alt="plant" class="image")
+        a(href="#").product__details
+          p.product__name Plant
+          p.product__price $ 1.9
+          p.product__desc Wonderfully, amazing plant
+      section.product
+        a(href="#").product__image
+          img(src="img/pineapple.jpeg", alt="plant" class="image")
+        a(href="#").product__details
+          p.product__name Pineapple
+          p.product__price $ 4.9
+          p.product__desc Wonderfully, amazing pineapples 
+
+    section.profile-section
+      h1  User Profile Design
+      div.profile
+        a(href="#").profile__image
+          img(src="img/dog1.jpeg", alt="plant" class="image")
+        a(href="#").profile__details
+          p.profile__name Abby Lalala
+          p.profile__phrase
+            span Love Ice Cream
+          p.profile__desc Always hungry!
+      section.profile
+        a(href="#").profile__image
+          img(src="img/brown-dog.jpeg", alt="plant" class="image")
+        a(href="#").profile__details
+          p.profile__name Pochi Yamaya
+          p.profile__phrase 
+            span Love Potato
+          p.profile__desc He's so shy!
+      section.profile
+        a(href="#").profile__image
+          img(src="img/baby-dog.jpeg", alt="plant" class="image")
+        a(href="#").profile__details
+          p.profile__name Baby Chan
+          p.profile__phrase 
+            span Love my mom!
+          p.profile__desc Cutest dog ever!
+
+      
