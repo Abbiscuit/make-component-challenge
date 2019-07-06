@@ -1,4 +1,5 @@
 # make-component-challenge
+
 CSS（Sass）を用いたコンポーネント作成の練習
 
 ### 下記のように設定
